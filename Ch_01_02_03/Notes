@@ -13,3 +13,20 @@ How to write <h1>Hello World</h1> and build our first React App with Hitesh
 
 In details we are understanding why we are using vite , Elements name should be in uppercase in React, 
 why we are wrapping inside the div , about fragments , how we can reload our project >reload
+
+Installtions related : 
+
+npm create vite@latest my-app    # Create new React app using Vite
+cd my-app                                     # Go to your app folder
+cd ..				       # It will help you to come out of the folder
+ls				       # List of the file’s you are using 
+npm install                        	       # Install dependencies
+npm run dev                    	       # Start development server (faster than CRA)
+npm run build                    	       # Build app for production
+npm run preview                 	       # Preview production build locally
+
+For Bootstrap installation : 
+npm i bootstrap@5.3.6
+
+inside main.jsx ----👈file name
+import 'bootstrap/dist/css/bootstrap.min.css';
