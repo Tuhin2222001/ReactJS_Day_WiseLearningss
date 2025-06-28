@@ -1,0 +1,26 @@
+Ch-07
+
+Here I learnt little bit about Tailwind 
+For installing Tailwind css : 
+In terminal 
+
+npm install -D tailwindcss@3 postcss autoprefixer
+npx tailwindcss init -p
+
+tailwind.config.js
+content: [
+
+   "./index.html",
+
+   "./src/**/*.{js,ts,jsx,tsx}",
+
+ ],
+
+Index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+AFTER THAT I FOCUES ON THE PROPS CONCEPTS THAT I HAVE LEARNED FROM BASIC PROPS .
+NOTE : Navbar I have taken from Bootstrap and Carts are from Tailwind (Both are third party libraies) 
