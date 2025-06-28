@@ -1,0 +1,21 @@
+6. React JS Tutorial 06
+
+https://github.com/acdlite/react-fiber-architecture
+
+What is reconcillation ?
+What is virtual DOM?
+Latest approach of Fibre?
+
+Reconciliation	: Process of comparing Virtual DOMs and updating the real DOM
+
+Virtual DOM	: Lightweight copy of real DOM for faster diffing
+
+React first creates a Virtual DOM version of this element.
+
+Then it checks if it needs to update anything.
+
+If yes, it updates the Real DOM — and that’s what appears in the browser.
+
+Fiber	: New rendering system that supports pausing/resuming work for better performance
+
+7. Understanding props by myself in basic pls check the code (NO TAILWIND USED NOW)
