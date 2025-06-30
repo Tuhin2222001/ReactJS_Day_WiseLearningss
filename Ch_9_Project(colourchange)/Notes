@@ -1,0 +1,8 @@
+This tutorial helps me to know :
+
+1. About the useState in hooks 
+2. const [count , setCount] = useState("white")
+   count - current state
+   setCount - function (we have to use this most of the place's just like this project I have done)
+3. I have taken two components and inside one component I have imported another component {Inside BodyParts i have imported Header}
+4. CSS parts are also there which I have taken help from the video and used Bootstrap as a third party library
