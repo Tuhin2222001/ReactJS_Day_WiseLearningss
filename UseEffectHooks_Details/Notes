@@ -1,0 +1,7 @@
+Covered the 3 core patterns of useEffect:
+
+useEffect(() => {}) → Runs after every render
+
+useEffect(() => {}, []) → Runs only once on mount
+
+useEffect(() => {}, [dependency]) → Runs only when that dependency changes
