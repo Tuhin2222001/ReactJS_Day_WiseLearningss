@@ -1,0 +1,24 @@
+1. How to create the reference
+
+let btnref = useRef();
+
+2. How to link the reference 
+
+ref={btnref}
+
+3. How to access and change the reference 
+
+btn0.current.style.backgroundColor = "red";
+
+
+3 Hooks theory:
+In a classroom teacher is teaching something , I am taking my personal notes in my notebook this is useRef ,if I am reading my notes in front of the class then it's useState means ui getting changes and useEffect 
+occurs when teacher seen something unimportant i have written in my notes silently and call my parents then its 
+an example of useEffect . So the difference b/w useRef and UseEffect is useRef can manipulate DOM and store the 
+value's without rerendering while useState can directly rerender the ui . 
+So here the difference b/w useRef,useEffect with useState is can rerender while both of them can't .
+
+useState(state hook) : Store data and update the ui .
+UseEffect(side effect hook) : It's a react hook for side effects . eg: Api calls,timers
+useRef(Reference hook) : It's a react hook for storing a reference eg : DOMs effect (get element by id , get element by class name instead of that we use useRef hooks)
+
